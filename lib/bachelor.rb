@@ -4,7 +4,7 @@ ddef get_first_name_of_season_winner(data, season)
       return contestant_hash["name"].split(" ").first
     end
   end
-end
+
 
 def get_contestant_name(data, occupation)
   data.each do |season, contestants|
